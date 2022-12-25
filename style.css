@@ -7,8 +7,8 @@ p {
 }
 
 h5 {
-color: rgb(9, 95, 199);
-font-weight: bold;
+    color: rgb(9, 95, 199);
+    font-weight: bold;
 }
 
 #yourname {
@@ -24,3 +24,33 @@ font-weight: bold;
 .nummail {
     color: black;
 }
+
+
+.firstdiv {
+    display: inline-block;
+    width: 35%;
+}
+
+.seconddiv {
+    display: inline-block;
+    width: 13%;
+    padding-left: 50px;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+  }
+
+
+  .body {
+    display: inline-block;
+    position: relative;
+    height: 297mm;
+    width: 210mm;
+    font-size: 12pt;
+    margin: 2em auto;
+    padding: calc(var(--bleeding) + var(--margin));
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    background: white;
+  }

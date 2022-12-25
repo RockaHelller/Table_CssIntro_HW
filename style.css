@@ -1,0 +1,26 @@
+span {
+    color: grey;
+}
+
+p {
+    color: grey;
+}
+
+h5 {
+color: rgb(9, 95, 199);
+font-weight: bold;
+}
+
+#yourname {
+    font-size: xxx-large;
+    color: black;
+    font-weight: bold;
+}
+
+#leftside {
+    padding-left: 50px;
+}
+
+.nummail {
+    color: black;
+}
